@@ -2,7 +2,6 @@
 <html lang="en" itemscope itemtype="http://schema.org/BlogPosting">
     {% include head.html %}
     <body class="has-push-menu">
-        {% include minutes-to-read.html %}
         {% include svg-icons.html %}
         {% include header.html %}
         <section class="post">
@@ -27,15 +26,6 @@
 
                 {{ content }}
             </article>
-
-            <div class="progress-bar" data-minutes="{{ totalMinutes }}">
-                <span class="time-completed"></span>
-                <span class="time-remaining"></span>
-                <div class="bar">
-                    <span class="completed" style="width:0%;"></span>
-                    <span class="remaining" style="width:100%;"></span>
-                </div>
-            </div>
 
             {% include share.html %}
             {% include author.html %}

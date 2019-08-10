@@ -2,8 +2,8 @@
 title: Jekflix Test | Experiment with custom theme for Jekyll
 email: youremail@xyz.com
 description: Some text about your blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://muffo.github.io/jekflix-template/" # the base hostname & protocol for your site
+baseurl: "jekflix-template" # the subpath of your site, e.g. /blog
+url: https://muffo.github.io/" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings

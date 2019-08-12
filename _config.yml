@@ -2,7 +2,7 @@
 title: Archived Band
 email: youremail@xyz.com
 description: Some text about your blog.
-baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
+baseurl: "/band_test" # the subpath of your site, e.g. /blog
 url: https://muffo.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 

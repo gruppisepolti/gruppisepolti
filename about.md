@@ -9,9 +9,33 @@ permalink: /about/
 
 ## About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### What
+A collection of music from underground bands that no longer exist.
+
+### Why
+Make the music available to everyone and make sure it doesn't get lost forever.
+
+### How
+A website where people can download the audio files and listen for free.
+
+### Who
+A webmaster (me) and a network of people to gather the audio files.
+
+### Where
+Name of the website is still tbd. I am thinking to use "something".band, e.g. archived.band.
+If you have ideas, see what's available [here](https://domains.google.com/m/registrar/search)
+
+### Scope
+Limit only to Italian band. We host only audio files of bands that are not available elsewhere. Add only a link if already on Spotify.
+
+### To discuss
+* Ads in the website? Maybe to pay for web server expenses
+* Include Youtube videos?
+* Should the website be in Italian?
+* Any problem with copyright?
+
+### Help needed
+* Contact people
+* Collect the music files
+* Moderate the comments section
+* Promote the project on social media

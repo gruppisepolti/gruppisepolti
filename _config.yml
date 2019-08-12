@@ -1,5 +1,5 @@
 # Site Settings
-title: Jekflix Test | Experiment with custom theme for Jekyll
+title: Archived Band
 email: youremail@xyz.com
 description: Some text about your blog.
 baseurl: "/jekflix-template" # the subpath of your site, e.g. /blog
@@ -7,7 +7,7 @@ url: https://muffo.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Jekflix
+username: Archived Band
 user_description: Some text about you.
 disqus_username: disqus_username
 

@@ -16,9 +16,9 @@ layout: main
                         {% include new-post-tag.html date=post.date %}
                         <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
                             {% if post.image %}
-                                <img src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
+                                <img src="assets/img/placeholder.png" data-url="{{ post.image }}" alt="Post image" class="preload">
                             {% else %}
-                                <img src="assets/img/placeholder.png" data-url="assets/img/off.jpg" class="preload">
+                                <img src="assets/img/placeholder.png" data-url="assets/img/off.jpg" alt="Post image" class="preload">
                             {% endif %}
                         </a>
                     </div>

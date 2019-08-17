@@ -11,7 +11,8 @@
             <iframe src="https://open.spotify.com/embed/album/{{ album.spotify }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         {% else %}
             {% if album.artwork %}
-                <img src="{{ album_url | replace: 'video/upload', 'image/upload/c_fill,w_400,h_400'  }}/{{ album.artwork }}"/>
+                <img src="{{ album_url | replace: 'video/upload', 'image/upload/c_fill,w_400,h_400'  }}/{{ album.artwork }}"
+                    alt="Artwork" />
             {% endif %}
             <p>
                 {% for track in album.tracks %}

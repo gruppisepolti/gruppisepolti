@@ -2,5 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build --config _config.yml,_config-ci.yml
-cd _site
-bundle exec htmlproofer --assume-extension .
+bundle exec htmlproofer --url-ignore "/muffo.github.io/" --assume-extension ./_site

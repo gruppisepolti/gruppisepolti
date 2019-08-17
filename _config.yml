@@ -13,12 +13,12 @@ disqus_username: disqus_username
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+# github_username: muffo
+# facebook_username: facebook_username
+twitter_username: muffo87
+# instagram_username: instagram_username
+# linkedin_username: linkedin_username
+# medium_username: medium_username
 
 # Build settings
 markdown: kramdown
@@ -44,4 +44,4 @@ links:
     url: contact/
 
 # Exclude my node/Gem related stuff
-exclude: ['package.json', 'src', 'node_modules', 'vendor']
+exclude: ['package.json', 'src', 'node_modules', 'vendor', 'script']

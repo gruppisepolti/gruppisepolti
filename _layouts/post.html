@@ -18,6 +18,8 @@
                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <p itemprop="description" class="subtitle">{{ page.description }}</p>
 
+                {% capture band_base_url %}https://res.cloudinary.com/bandb/video/upload/{{ page.title | replace: ' ', '_' }}{% endcapture %}
+
                 {% if page.image %}
                     <img src="{{ page.image }}" alt="Imagem de capa" class="post-cover">
                 {% endif %}
@@ -35,18 +37,23 @@
                 {% if page.music %}
                     <h3>Music</h3>
                     {% for album in page.music %}
+                    {% capture album_url %}{{ band_base_url }}/{{ album.title | replace: ' ', '_' }}{% endcapture %}
                     <h4>{{ album.title }}
                     {% if album.year %}
                     - ({{ album.year }})
                     {% endif %}
                     </h4>
+                    {% if album.artwork %}
+                        <img src="{{ album_url | replace: 'video/upload', 'image/upload/c_fill,w_400,h_400'  }}/{{ album.artwork }}"/>
+                    {% endif %}
                     <p>
-                      {% for track in album.tracks %}
-                        {{ forloop.index }} - <a href="https://res.cloudinary.com/bandb/video/upload/{{ page.title | replace: ' ', '_' }}/{{ album.title | replace: ' ', '_' }}/{{ forloop.index }}_{{ track | replace: ' ', '_' }}.{{ album.format | default: 'mp3' }}">
-                         {{ track }}</a></br>   
-                      {% endfor %}
+                        {% for track in album.tracks %}
+                            {% capture track_url %}{{ album_url }}/{{ forloop.index }}_{{ track | replace: ' ', '_' }}.{{ album.format | default: 'mp3' }}{% endcapture %}
+                            {{ forloop.index }} - <a href="{{ track_url }}">{{ track }}</a></br>   
+                        {% endfor %}
                     </p>
                     {% endfor %}
+
                 {% endif %}
                 {{ content }}
             </article>

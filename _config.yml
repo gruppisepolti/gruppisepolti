@@ -43,5 +43,5 @@ links:
   - title: Contact
     url: contact/
 
-# Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+# Exclude my node/Gem related stuff
+exclude: ['package.json', 'src', 'node_modules', 'vendor']

@@ -37,23 +37,26 @@
                 {% if page.music %}
                     <h3>Music</h3>
                     {% for album in page.music %}
-                    {% capture album_url %}{{ band_base_url }}/{{ album.title | replace: ' ', '_' }}{% endcapture %}
-                    <h4>{{ album.title }}
-                    {% if album.year %}
-                    - ({{ album.year }})
-                    {% endif %}
-                    </h4>
-                    {% if album.artwork %}
-                        <img src="{{ album_url | replace: 'video/upload', 'image/upload/c_fill,w_400,h_400'  }}/{{ album.artwork }}"/>
-                    {% endif %}
-                    <p>
-                        {% for track in album.tracks %}
-                            {% capture track_url %}{{ album_url }}/{{ forloop.index }}_{{ track | replace: ' ', '_' }}.{{ album.format | default: 'mp3' }}{% endcapture %}
-                            {{ forloop.index }} - <a href="{{ track_url }}">{{ track }}</a></br>   
-                        {% endfor %}
-                    </p>
+                        {% capture album_url %}{{ band_base_url }}/{{ album.title | replace: ' ', '_' }}{% endcapture %}
+                        <h4>{{ album.title }}
+                        {% if album.year %}
+                            - ({{ album.year }})
+                        {% endif %}
+                        </h4>
+                        {% if album.spotify %}
+                            <iframe src="https://open.spotify.com/embed/album/{{ album.spotify }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        {% else %}
+                            {% if album.artwork %}
+                                <img src="{{ album_url | replace: 'video/upload', 'image/upload/c_fill,w_400,h_400'  }}/{{ album.artwork }}"/>
+                            {% endif %}
+                            <p>
+                                {% for track in album.tracks %}
+                                    {% capture track_url %}{{ album_url }}/{{ forloop.index }}_{{ track | replace: ' ', '_' }}.{{ album.format | default: 'mp3' }}{% endcapture %}
+                                    {{ forloop.index }} - <a href="{{ track_url }}">{{ track }}</a></br>   
+                                {% endfor %}
+                            </p>
+                        {% endif %}  
                     {% endfor %}
-
                 {% endif %}
                 {{ content }}
             </article>

@@ -1,13 +1,13 @@
 # Site Settings
-title: Archived Band
-email: youremail@xyz.com
-description: Some text about your blog.
-baseurl: "/band_test" # the subpath of your site, e.g. /blog
-url: https://muffo.github.io" # the base hostname & protocol for your site
+title: Gruppi Sepolti
+email: gruppisepolti@gmail.com
+description: Gruppi sepolti dall'Emilia Romagna
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://gruppisepolti.it" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: Archived Band
+username: Gruppi Sepolti
 user_description: Some text about you.
 disqus_username: disqus_username
 
@@ -15,8 +15,8 @@ disqus_username: disqus_username
 # Remove the item if you don't need it
 # github_username: muffo
 # facebook_username: facebook_username
-twitter_username: muffo87
-# instagram_username: instagram_username
+twitter_username: gruppisepolti
+# instagram_username: insta2gram_username
 # linkedin_username: linkedin_username
 # medium_username: medium_username
 
@@ -39,9 +39,9 @@ links:
   - title: Home
     url: /
   - title: About
-    url: about/
-  - title: Contact
-    url: contact/
+    url: /about/
+  - title: Contatti
+    url: /contact/
 
 # Exclude my node/Gem related stuff
 exclude: ['package.json', 'src', 'node_modules', 'vendor', 'script']

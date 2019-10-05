@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: band
 title: "Got Random Walk"
 date: 2019-08-01
 image: 'https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/Got_Random_Walk/photo.jpg'

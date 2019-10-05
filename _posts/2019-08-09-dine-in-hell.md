@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: band
 title: "Dine In Hell"
 date: 2019-08-01
 # image: 'https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/Dine_In_Hell/photo.jpg'

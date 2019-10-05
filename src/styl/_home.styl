@@ -50,7 +50,7 @@ main
         .box-body
             time, p
                 color accentDark
-            .new-post:after
+            .new-post:after, sticky:after
                 background-color #000
             .cover
                 a:before
@@ -107,7 +107,19 @@ main
                 background accentDark
                 border-color accentDark
         .new-post:after
-            content 'New post'
+            content 'Nuovo'
+            text-transform uppercase
+            display inline-block
+            background themeColor
+            color #fff
+            font-size rem(13px)
+            font-weight 700
+            line-height rem(24px)
+            padding 0 rem(8px)
+            position absolute
+            margin-top rem(-35px)
+        .sticky:after
+            content 'In evidenza'
             text-transform uppercase
             display inline-block
             background themeColor

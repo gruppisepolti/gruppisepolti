@@ -17,7 +17,24 @@
                 </p>
                 <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
                 <p itemprop="description" class="subtitle">{{ page.description }}</p>
-                
+
+                {% capture band_base_url %}https://res.cloudinary.com/bandb/video/upload/{{ page.title | replace: ' ', '_' }}{% endcapture %}
+
+                {% if page.image %}
+                    <img src="{{ page.image }}" alt="Header image" class="post-cover">
+                {% endif %}
+
+                {% if page.members %}
+                    <h3>Members</h3>
+                    <p>
+                    {% for member in page.members %}
+                    {{ member.name }} - {{ member.instrument }}</br>
+                    {% endfor %}
+                    </p>
+                {% endif %}
+
+                {% include music.html %}
+
                 {{ content }}
             </article>
 

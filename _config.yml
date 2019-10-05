@@ -9,7 +9,7 @@ google_analytics: "UA-148475434-1"
 # User Settings
 username: Gruppi Sepolti
 user_description: Some text about you.
-disqus_username: disqus_username
+disqus_shortname: gruppi-sepolti
 
 # Social Media
 # Remove the item if you don't need it

@@ -3,7 +3,6 @@ layout: page
 title: Contatti
 description: Let's talk.
 permalink: /contact/
-comments: false
 ---
 
 <style type="text/css" media="screen">

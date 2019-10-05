@@ -24,11 +24,7 @@ music:
 - title: GRW
   year: 2010
   artwork: artwork.png
-  format: mp4
-  tracks:
-  - We Are Coming
-  - My Place Not My Nation
-  - Muffen
+  soundcloud: 886825420
 ---
 
 

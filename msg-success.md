@@ -13,7 +13,7 @@ permalink: /contact/message-sent/
 </style>
 
 <div class="container">
-  <img src="/assets/img/message.gif" width="540" alt="Message sent!">
-  <p><strong>Message sent!</strong></p>
-  <p>Thank you for sending me a message. I'm going to answer ASAP.</p>
+  <img src="/assets/img/message.gif" width="540" alt="Messaggio inviato!">
+  <p><strong>Messaggio inviato!</strong></p>
+  <p>Grazie per averci contattato. Ti risponderemo il prima possibile.</p>
 </div>

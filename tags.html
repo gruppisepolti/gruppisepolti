@@ -1,25 +1,26 @@
 ---
 layout: minimal
-title: "#Tags"
+title: "Gruppi divisi per genere"
 permalink: /tags/index.html
-description: "Procure por sua #tag favorita."
+description: "Gruppi Sepolti per genere"
 ---
 
+<h2>Tutti i gruppi divisi per genere</h2>
+
 <div class="tags">
-{% assign tags_list = site.tags %}
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-        <a href="#{{ tag | slugify }}">{{ tag }}</a>
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-        <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
-    {% endfor %}
-  {% endif %}
-{% assign tags_list = nil %}
+{% assign tags_list = site.tags | sort %}
+{% if tags_list.first[0] == null %}
+  {% for tag in tags_list %}
+      <a href="#{{ tag | slugify }}">{{ tag }}</a>
+  {% endfor %}
+{% else %}
+  {% for tag in tags_list %}
+      <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+  {% endfor %}
+{% endif %}
 </div>
 
-{% for tag in site.tags  %}
+{% for tag in tags_list  %}
     <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
     <ul class="post-list">
         {% assign pages_list = tag[1] %}

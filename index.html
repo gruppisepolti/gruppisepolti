@@ -4,8 +4,8 @@ layout: main
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
-        {% assign stickyposts = paginator.posts | where_exp:"p", "p.sticky" %}
-        {% for post in stickyposts %}
+        {% assign links = site.links | where_exp:"l", "l.show" %}
+        {% for post in links %}
             {% include box.html %}
         {% endfor %}
         {% for post in paginator.posts %}            

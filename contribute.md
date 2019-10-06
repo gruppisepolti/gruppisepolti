@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: page
 title: "Contribuisci"
-date: 2019-01-01
-image: 'https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/v1570300231/logo.jpg'
-description: Aggiungi la tua musica a Gruppi Sepolti.
-category: 'post'
-sticky: true
 ---
+
+# Contribuisci
+
+Aggiungi la tua musica a Gruppi Sepolti.
 
 ## Requisiti
 
@@ -14,14 +13,14 @@ sticky: true
 * Provenienza della band: Emilia Romagna (per ora).
 * Devi essere un ex-componente del gruppo e titolare dei diritti delle canzoni.
 
-## Carica i tuoi brani online
+## Carica i tuoi brani
 
-Per motivi di Copyright, GruppiSepolti.it non pubblichera' direttamente i tuoi file mp3.
 Tutti i brani devono essere caricati su SoundCloud o Spotify come spiegato di seguito.
+Per evitare problemi di Copyright, GruppiSepolti.it non pubblichera' direttamente i tuoi file mp3.
 
 #### Spotify
 
-Se i tuoi brani sono gia' disponibili su Spotify, non devi fare altro. Inviaci direttamente il link del tuo album.
+Se i tuoi brani sono gia' disponibili su Spotify, non devi fare altro. Inviaci direttamente il link al tuo album.
 
 #### SoundClound
 

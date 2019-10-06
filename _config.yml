@@ -38,10 +38,24 @@ plugins:
 links:
   - title: Home
     url: /
-  - title: About
+  - title: Chi Siamo
     url: /about/
+    show: true
+    image: https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/v1570300231/logo.jpg
+    description: Info sul progetto Gruppi Sepolti
+  - title: Contribuisci
+    url: /contribute/
+    description: Aggiungi la tua musica
+    show: true
+    image: https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/v1570300231/logo.jpg
+  - title: Tutti i gruppi
+    url: /tags/
+    show: true
+    description: Cerca un gruppo per genere
+    image: https://res.cloudinary.com/bandb/image/upload/c_fill,w_760/v1570300231/logo.jpg
   - title: Contatti
     url: /contact/
+
 
 # Exclude my node/Gem related stuff
 exclude: ['package.json', 'src', 'node_modules', 'vendor', 'script']

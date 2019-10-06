@@ -18,6 +18,8 @@ Vuoi pubblicare la tua musica su GruppiSepolti.it? Nella pagina [Contribuisci](/
 
 Vuoi partecipare al progetto o hai suggerimenti? [Contattaci](/contribute) e ti rispnderemo al piu presto.
 
+Sei un esperto informatico?  Contribuisci al sito su [Github](https://github.com/gruppisepolti/gruppisepolti)
+
 ## Social Networks
 
 Twitter: [@gruppisepolti](https://twitter.com/gruppisepolti)

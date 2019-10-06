@@ -9,8 +9,8 @@ Aggiungi la tua musica a Gruppi Sepolti.
 
 ## Requisiti
 
-* Il gruppo deve essere sciolto. Gruppi ancora attivi saranno rifiutati.
-* Provenienza della band: Emilia Romagna (per ora).
+* Il gruppo deve essere sciolto. Se il tuo gruppo e' ancora attivo, probabilmente ci sono siti migliori su cui promuoverlo.
+* Per ora, solo gruppi dell'Emilia Romagna.
 * Devi essere un ex-componente del gruppo e titolare dei diritti delle canzoni.
 
 ## Carica i tuoi brani

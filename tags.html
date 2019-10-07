@@ -11,17 +11,17 @@ description: "Gruppi Sepolti per genere"
 {% assign tags_list = site.tags | sort %}
 {% if tags_list.first[0] == null %}
   {% for tag in tags_list %}
-      <a href="#{{ tag | slugify }}">{{ tag }}</a>
+      <a href="#{{ tag | slugify }}">{{ tag | capitalize }}</a>
   {% endfor %}
 {% else %}
   {% for tag in tags_list %}
-      <a href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+      <a href="#{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</a>
   {% endfor %}
 {% endif %}
 </div>
 
 {% for tag in tags_list  %}
-    <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] }}</span>
+    <span class="tag-title" id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</span>
     <ul class="post-list">
         {% assign pages_list = tag[1] %}
         {% for post in pages_list reversed %}

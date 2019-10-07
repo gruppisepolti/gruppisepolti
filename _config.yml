@@ -3,7 +3,7 @@ title: Gruppi Sepolti
 email: gruppisepolti@gmail.com
 description: Gruppi sepolti dall'Emilia Romagna
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://gruppisepolti.it" # the base hostname & protocol for your site
+url: https://gruppisepolti.it # the base hostname & protocol for your site
 google_analytics: "UA-148475434-1"
 
 # User Settings

@@ -22,11 +22,9 @@ Per evitare problemi di Copyright, GruppiSepolti.it non pubblichera' direttament
 
 Se i tuoi brani sono gia' disponibili su Spotify, non devi fare altro. Inviaci direttamente il link al tuo album.
 
-#### SoundClound
+#### Audiomack
 
-Se i tuoi brani **non** sono gia' su Spotify, ti suggeriamo di caricarli sulla piattaforma gratuita [SoundClound](http://soundcloud.com). L'account gratuito ti permette di caricare fino a 3 ore di contenuti.
-
-Fatto questo, [crea una playlist](https://help.soundcloud.com/hc/en-us/articles/115003449787-Creating-and-adding-tracks-to-a-playlist) per ogni album.
+Se i tuoi brani **non** sono gia' su Spotify, ti suggeriamo di caricarli sulla piattaforma gratuita [Audiomack](https://audiomack.com). L'account gratuito ti permette di caricare audio illimitato.
 
 ## Aggiungi la band
 
@@ -34,7 +32,8 @@ Inviaci un messaggio dalla pagina [contatti](/contact) e includi le seguenti inf
 * Nome del gruppo
 * Genere
 * Citta' di provenienza
-* Link alle playlist di SoundCloud/Spotify
+* Link ai tuoi album su Audiomack/Spotify
+* Bio del gruppo (facoltativo)
 
 Ti contatteremo il prima possibile per finalizzare la pubblicazione. Nel frattempo, prepara anche una foto da usare come copertina per la tua pagina.
 

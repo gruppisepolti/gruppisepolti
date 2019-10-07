@@ -24,6 +24,8 @@
                     <img src="{{ page.image }}" alt="Header image" class="post-cover">
                 {% endif %}
 
+                {% include music.html %}
+
                 {% if page.members %}
                     <h3>Componenti</h3>
                     <p>
@@ -32,8 +34,6 @@
                     {% endfor %}
                     </p>
                 {% endif %}
-
-                {% include music.html %}
 
                 {{ content }}
             </article>
